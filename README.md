@@ -8,14 +8,16 @@
 docker build -t myapp:1.0 .
 docker run -d -p 8080:80 myapp:1.0
 ```
-## Kubernetes Deploymet
+## Kubernetes Deployment
 Образ загружен на Docker Hub
 #### Требования
+```
 minikube
 kubectl
+```
 #### Запуск
 ```bash
-kubectl apply -f k8s/
+
 # Применить все манифесты
 kubectl apply -f k8s/
 
