@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: myapp 
-        image: myapp:1.0 
+        image: dan0050/docker-app:latest 
         ports:
         - containerPort: 80 
