@@ -10,6 +10,8 @@ docker run -d -p 8080:80 myapp:1.0
 ```
 ## Kubernetes Deployment
 Образ загружен на Docker Hub
+```docekr pull dan0050/docker-app```
+
 #### Требования
 ```
 minikube
