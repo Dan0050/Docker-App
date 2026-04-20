@@ -8,6 +8,16 @@
 docker build -t myapp:1.0 .
 docker run -d -p 8080:80 myapp:1.0
 ```
+
+
+
+## Docker CI/CD Pipeline
+
+Конфигурация: `.github/workflows/pipe.yml`
+
+Простой автоматизированный пайплайн сборки, тестирования и публикации образа на **Docker Hub** через **GitHub Actions**.
+
+
 ## Kubernetes Deployment
 Образ загружен на Docker Hub
 ```docekr pull dan0050/docker-app```
